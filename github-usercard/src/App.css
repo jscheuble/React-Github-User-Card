@@ -2,3 +2,27 @@
   text-align: center;
 }
 
+body {
+  background: #bf477b;
+}
+
+.card {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: #dddce3;
+  margin: 2% auto;
+  padding: 3%;
+  max-width: 40%;
+  box-shadow: 10px 5px 5px rgba(214, 207, 209, .5);;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+}
+
+img {
+  width: 300px;
+  margin-right: 3%;
+}
