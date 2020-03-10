@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function UserCard(props) {
     return(
-        <div>
+        <div className='card'>
             <img src={props.user.avatar_url} alt='github user'/>
             <div>
                 <h3>{props.user.name}</h3>
